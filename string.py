@@ -20,6 +20,6 @@ print(str1[-5:])  # 右边最后5个字符
 print(len(str5)) #取长度
 print(str7)
 print(str8 + ":"+str(len(str8)))  #unicode类型字符串仍按平常理解文字长度计算, 而不是字节数
-str8.encode('utf-16')
+str8.encode('utf-16') #转换编码方式
 print(str8[1] + ":"+str(len(str8)))
 
