@@ -2,5 +2,6 @@
 
 str1 = 'hello world'
 str2 = "HELLO WORLD"
+sql = "select name from employees where name like \"%eric%\""
 
-print(str1 + str2)
+print(sql)
