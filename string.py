@@ -5,4 +5,4 @@ str2 = "HELLO WORLD"
 sql = "select name from employees where name like \"%eric%\""
 
 print(sql)
-print(str1)
+print(str2)
