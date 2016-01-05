@@ -22,9 +22,9 @@ else:
 print(a,b)
 
 # for 循环
-count = range(100)
-x = 0
-for i in count:
-  x += i
+count = range(2,5)
 
-print(x)
+for i in count:
+  print(i)
+else:
+    print('end')
